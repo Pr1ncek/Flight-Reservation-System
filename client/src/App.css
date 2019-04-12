@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 20px;
+  background-color: #fff;
+  color: #555;
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+}
+
+/* ============================================ Reusable Components ============================================ */
+.row {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* ============================================ Headings ============================================ */
+h1,
+h2,
+h3 {
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* ============================================ Landing Page ============================================ */
+.App {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/landing-image.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: #fff;
+}
+
+.hero-text-box {
+  position: absolute;
+  width: 1140px;
+  top: 50%;
+  left: 90%;
+  transform: translate(-50%, -50%);
+}
+
+.hero-text-box h1 {
+  font-size: 3rem;
+}
+
+.App a {
+  margin-right: 1.5rem;
+  margin-top: 1rem;
+}
+
+/* ============================================ Buttons ============================================ */
+.btn {
+  display: inline-block;
+  padding: 0.5rem 4rem;
+  font-weight: 300;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: all 0.2s;
+}
+.btn:hover {
+  color: #fff;
+  background-color: #cf6d17;
+}
+
+.btn-full {
+  background-color: #e67e22;
+  border: 1px solid transparent;
+}
+
+.btn-ghost {
+  border: 1px solid #e67e22;
+  color: #e67e22;
+  transition: all 0.2s;
+}
+.btn-ghost:hover {
+  background-color: #cf6d17;
+  border: 1px solid #cf6d17;
+  color: #fff;
+}
+
+/* ============================================ Navbar ============================================ */
+header ul {
+  margin-top: 4rem;
+  list-style: none;
+  float: right;
+}
+header ul li {
+  display: inline-block;
+  margin-left: 3rem;
+}
+header ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  color: #fff;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid transparent;
+  transition: all 0.2s;
+}
+header ul li a:hover {
+  color: #fff;
+  border-bottom: 2px solid #e67e22;
+}
+
+/* ============================================ Register ============================================ */
+.Register {
+  font-size: 1.2rem;
+  margin: 0;
+  background: #555;
+}
+
+.Register .form {
+  padding-top: 4.5rem;
+}
+
+.Register .side-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(images/image2.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+/* ============================================ Register ============================================ */
+.Login {
+  font-size: 1.2rem;
+  margin: 0;
+  background: #555;
+}
+
+.Login .form {
+  padding-top: 3.5rem;
+}
+
+.Login .side-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(images/image3.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+/* ============================================ Main ============================================ */
+.main-search {
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(images/image5.jpg); */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  transform: translateY(14px);
+}
